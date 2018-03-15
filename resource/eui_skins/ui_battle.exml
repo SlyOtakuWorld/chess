@@ -2,7 +2,6 @@
 <e:Skin class="SceneBattle" width="741" height="1316" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
 	<e:Image id="imgBG" top="0" bottom="0" left="0" right="0" source="MapFloor_png" fillMode="repeat"/>
 	<e:Rect height="88" fillAlpha="0.5" width="100%" x="0" bottom="0"/>
-	<e:Group id="groupGoldAni" width="100%" height="100%" x="0" y="0"/>
 	<e:Group id="groupTop" x="0" y="0" width="100%" height="88">
 		<e:Rect fillAlpha="0.5" left="0" right="0" top="0" bottom="0"/>
 		<e:Group x="23.35" y="20">
@@ -17,4 +16,24 @@
 		</e:Group>
 	</e:Group>
 	<e:Group id="groupMap" width="741" height="1140" x="0" verticalCenter="0"/>
+	<e:Group id="groupEnd" width="100%" height="100%" x="0" y="0">
+		<e:Rect width="100%" height="100%" x="0" y="0"/>
+		<e:Button id="btnEnd" label="继续" verticalCenter="0" horizontalCenter="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="btn_n_png" source.down="btn_y_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btnNext" label="继续" horizontalCenter="0" verticalCenter="20%">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="btn_n_png" source.down="btn_y_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Label id="labelTxt" text="test" verticalCenter="-20%" size="60" textColor="0xffffff" fontFamily="Microsoft YaHei" horizontalCenter="0" verticalAlign="middle" textAlign="center"/>
+	</e:Group>
 </e:Skin>

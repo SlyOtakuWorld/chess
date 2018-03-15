@@ -1,7 +1,7 @@
 {
 	"groups": [
 		{
-			"keys": "description_json,bing_j_png,bing_j_select_png,che_j_png,che_j_select_png,jiang_png,jiang_death_png,jiang_select_png,ma_j_png,ma_j_select_png,pao_j_png,pao_j_select_png,shi_j_png,shi_j_select_png,xiang_j_png,xiang_j_select_png,shuai_png,shuai_death_png,shi_s_select_png,shi_s_png,pao_s_select_png,pao_s_png,shuai_select_png,xiang_s_png,xiang_s_select_png,bing_s_png,bing_s_select_png,che_s_png,che_s_select_png,ma_s_png,ma_s_select_png,select_png,null_png,background_png",
+			"keys": "description_json,bing_j_png,bing_j_select_png,che_j_png,che_j_select_png,jiang_png,jiang_death_png,jiang_select_png,ma_j_png,ma_j_select_png,pao_j_png,pao_j_select_png,shi_j_png,shi_j_select_png,xiang_j_png,xiang_j_select_png,shuai_png,shuai_death_png,shi_s_select_png,shi_s_png,pao_s_select_png,pao_s_png,shuai_select_png,xiang_s_png,xiang_s_select_png,bing_s_png,bing_s_select_png,che_s_png,che_s_select_png,ma_s_png,ma_s_select_png,select_png,null_png,background_png,btn_n_png,btn_y_png,sheng_png",
 			"name": "preload"
 		}
 	],
@@ -175,6 +175,21 @@
 			"name": "background_png",
 			"type": "image",
 			"url": "assets/chess/background.png"
+		},
+		{
+			"name": "btn_n_png",
+			"type": "image",
+			"url": "assets/chess/af/btn_n.png"
+		},
+		{
+			"name": "btn_y_png",
+			"type": "image",
+			"url": "assets/chess/af/btn_y.png"
+		},
+		{
+			"name": "sheng_png",
+			"type": "image",
+			"url": "assets/chess/af/sheng.png"
 		}
 	]
 }
